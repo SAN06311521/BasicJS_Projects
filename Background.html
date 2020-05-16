@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>BackGround Change On Click</title>
+	<link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+	<style>
+		#head{
+	margin: 1em 0 0.5em 0;
+	color: #343434;
+	font-weight: normal;
+	font-family: 'Aclonica';   
+	font-size: 36px;
+	line-height: 42px;
+	text-shadow: 0 2px white, 0 3px #777;
+	text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<script>
+		var bgcolor=new Array("#ff0000" , "#05eb00" , "#1b2ae9" , "#c0708a" , "#7bed8a" , "#ad67d9" , "#660066" , "#ffff00" , "#99ccff")
+		document.body.style.background=bgcolor[Math.floor(Math.random()*bgcolor.length)]
+	</script>
+	<h1 id="head"> Refresh the page for random change in background colour!! </h1>
+
+</body>
+</html>
